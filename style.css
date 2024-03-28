@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --text: #16163f;
+  --primary: #8136d5;
+  --primary-color: rgb(158,63,253);
+  
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  color: var(--text);
+  
+  background-color: snow;
+}
+
+h1{
+  font-size: 70px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav,
+ul {
+  display: flex;
+  gap: 1rem; 
+  align-items: center;
+  justify-content: center;
+
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.logo-container{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.order{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.logo{
+  margin: 0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+nav{
+  font-size: 1.2rem;
+
+}
+
+ul{
+  padding: 0;
+  gap: 4rem;
+}
+
+.ord {
+  width: 8rem;
+  font-size: 1.2rem;
+  background-color: #8136d5;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fafafa;
+  box-shadow: 14px 14px 7px -4px rgba(20,0,50,0.1);
+}
+
+.ord:hover{
+  cursor: pointer;
+  background-color: #3f0d78;
+}
+
+.ord:active{
+  transform: translateY(5px);
+}
+
+a{
+  text-decoration: none;
+  color: var(--text)
+}
+
+.temp{
+  margin-bottom: 10px;
+}
+
+#cart-items{
+  display: flex;
+  gap: 10px;
+}
+
+.cart-item{
+  padding-bottom: 70px;
+  border: 1px solid black;
+}
+
+/* .c {
+  display: flex;
+} */
+
+.pc {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 350px;
+  gap: 8px;
+}
+
+.imag {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+ 
+}
+
+.ic {
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid red; */
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  margin: 10px;
+  padding: 20px;
+  padding-bottom: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
